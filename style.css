@@ -1,0 +1,132 @@
+*{
+    background-color: black;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hedder{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("header-image.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 10px 8%;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 12px;
+    margin-left: 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.lang-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+.lang-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.hed-con{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-top: 100px;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+.hed-con h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    background-color: transparent;
+}
+.hed-con h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    background-color: transparent;
+}
+input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    background-color: white;
+    width: 350px;
+    height: 40px;
+}
+.sub{
+    background-color: #db0001;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 3px 30px;
+    height: 40px;
+}
+.feature{
+        padding: 50px 12%;
+        font-size: 22px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 0;
+}
+.text{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.text h2{
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.text p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
